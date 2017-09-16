@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook" parallel="tests">
+
+    <parameter name="browserName" value="chromedriver"/>
+
+    <parameter name="url" value="https://www.facebook.com/"/>
+
+    <parameter name="operatingSystem" value="windows"/>
+    <test name="Facebook Homepage">
+
+        <classes>
+            <class name="testhomepage.TestSignUP"/>
+        </classes>
+    </test>
+</suite>
+

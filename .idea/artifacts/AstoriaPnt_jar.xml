@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AstoriaPnt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AstoriaPnt_jar</output-path>
+    <root id="archive" name="AstoriaPnt.jar">
+      <element id="module-output" name="AstoriaPnt" />
+    </root>
+  </artifact>
+</component>

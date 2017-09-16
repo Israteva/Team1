@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Amazon]" parallel="tests">
+  <parameter name="browserName" value="Chrome"/>
+  <parameter name="operatingSystem" value="windows"/>
+  <parameter name="url" value="https://www.Amazon.com/"/>
+  <test name="Amazon Homepage(failed)" parallel="tests">
+    <classes>
+      <class name="testhomepage.TestAmazonHomepage">
+        <methods>
+          <include name="testSearchDropdownBox"/>
+          <include name="testSearchDropdownBoxWithSelect"/>
+          <include name="testclickOnorder"/>
+          <include name="testClickOnShoppingCart"/>
+          <include name="testprintSearchDropdownOptions"/>
+          <include name="testSearchFor"/>
+          <include name="setUp"/>
+          <include name="testclickOnAmazonSell"/>
+          <include name="testSearchUP"/>
+          <include name="cleanup"/>
+          <include name="testSignInAmazon"/>
+          <include name="TestClick"/>
+          <include name="testClickOnGiftcard"/>
+        </methods>
+      </class> <!-- testhomepage.TestAmazonHomepage -->
+    </classes>
+  </test> <!-- Amazon Homepage(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

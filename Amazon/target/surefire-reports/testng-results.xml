@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon" duration-ms="60831" started-at="2017-09-16T17:33:57Z" finished-at="2017-09-16T17:34:58Z">
+    <groups>
+    </groups>
+    <test name="Amazon Homepage" duration-ms="60831" started-at="2017-09-16T17:33:57Z" finished-at="2017-09-16T17:34:58Z">
+      <class name="testhomepage.TestAmazonHomepage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="setUp" is-config="true" duration-ms="6630" started-at="2017-09-16T13:33:57Z" finished-at="2017-09-16T13:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.Amazon.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchUP()[pri:1, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testSearchUP" duration-ms="2073" started-at="2017-09-16T13:34:04Z" finished-at="2017-09-16T13:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchUP -->
+        <test-method status="PASS" signature="TestClick()[pri:2, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="TestClick" duration-ms="3649" started-at="2017-09-16T13:34:06Z" finished-at="2017-09-16T13:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClick -->
+        <test-method status="PASS" signature="testSearchDropdownBox()[pri:3, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testSearchDropdownBox" duration-ms="5367" started-at="2017-09-16T13:34:10Z" finished-at="2017-09-16T13:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDropdownBox -->
+        <test-method status="PASS" signature="testprintSearchDropdownOptions()[pri:4, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testprintSearchDropdownOptions" duration-ms="1669" started-at="2017-09-16T13:34:15Z" finished-at="2017-09-16T13:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testprintSearchDropdownOptions -->
+        <test-method status="PASS" signature="testSearchDropdownBoxWithSelect()[pri:5, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testSearchDropdownBoxWithSelect" duration-ms="2536" started-at="2017-09-16T13:34:17Z" finished-at="2017-09-16T13:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDropdownBoxWithSelect -->
+        <test-method status="PASS" signature="testSearchFor()[pri:6, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testSearchFor" duration-ms="7770" started-at="2017-09-16T13:34:19Z" finished-at="2017-09-16T13:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFor -->
+        <test-method status="PASS" signature="testClickOnGiftcard()[pri:7, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testClickOnGiftcard" duration-ms="5876" started-at="2017-09-16T13:34:27Z" finished-at="2017-09-16T13:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnGiftcard -->
+        <test-method status="PASS" signature="testClickOnShoppingCart()[pri:8, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testClickOnShoppingCart" duration-ms="5677" started-at="2017-09-16T13:34:33Z" finished-at="2017-09-16T13:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnShoppingCart -->
+        <test-method status="PASS" signature="testclickOnAmazonSell()[pri:9, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testclickOnAmazonSell" duration-ms="6159" started-at="2017-09-16T13:34:38Z" finished-at="2017-09-16T13:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclickOnAmazonSell -->
+        <test-method status="PASS" signature="testclickOnorder()[pri:10, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testclickOnorder" duration-ms="5866" started-at="2017-09-16T13:34:45Z" finished-at="2017-09-16T13:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclickOnorder -->
+        <test-method status="PASS" signature="testSignInAmazon()[pri:11, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="testSignInAmazon" duration-ms="5793" started-at="2017-09-16T13:34:50Z" finished-at="2017-09-16T13:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInAmazon -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testhomepage.TestAmazonHomepage@7f63425a]" name="cleanup" is-config="true" duration-ms="1732" started-at="2017-09-16T13:34:56Z" finished-at="2017-09-16T13:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testhomepage.TestAmazonHomepage -->
+    </test> <!-- Amazon Homepage -->
+  </suite> <!-- Amazon -->
+</testng-results>
